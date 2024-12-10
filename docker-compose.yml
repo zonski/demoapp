@@ -1,0 +1,9 @@
+services:
+  api-server:
+    container_name: api-server
+    build:
+      context: .
+      dockerfile: ./backend/api-server/Dockerfile
+    restart: always
+    ports:
+      - 8080:8080

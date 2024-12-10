@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/globals.css",
+    "baseColor": "zinc",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@repo/web-kit/components",
+    "ui": "@repo/web-kit/components/ui",
+    "utils": "@repo/web-kit/lib/utils",
+    "lib": "@repo/web-kit/lib",
+    "helpers": "@repo/web-kit/helpers",
+    "hooks": "@repo/web-kit/hooks"
+  }
+}
